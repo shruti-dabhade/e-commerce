@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!-- Search Starts -->
+    <div class="alert alert-primary m-0 collapse" id="search">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control" name="" id="">
+                <button type="button" class="btn btn-primary">Search</button>
+            </div>
+
+            <h4 class="my-4">Quick Links</h4>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p> <a href="">Link1</a> </p>
+                    <p> <a href="">Link2</a> </p>
+                    <p> <a href="">Link3</a> </p>
+                    <p> <a href="">Link4</a> </p>
+                    <p> <a href="">Link5</a> </p>
+                </div>
+                <div class="col-sm-3">
+                    <p> <a href="">Link1</a> </p>
+                    <p> <a href="">Link2</a> </p>
+                    <p> <a href="">Link3</a> </p>
+                    <p> <a href="">Link4</a> </p>
+                    <p> <a href="">Link5</a> </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img class="img-fluid"
+                                        src="https://rukminim1.flixcart.com/image/416/416/l2qhjm80/computer/l/t/g/gf63-thin-11uc-867in-gaming-laptop-msi-original-imageyk5hzuthuyf.jpeg?q=70"
+                                        alt="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <h3>Featured Product</h3>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search ends -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">SKILLKART</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- doprdown start -->
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu alert alert-primary w-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex my-5 gap-4">
+                                        <span class="fs-1">icon</span>
+                                        <div>
+                                            <h3>Laptop</h3>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex my-5 gap-4">
+                                        <span class="fs-1">icon</span>
+                                        <div>
+                                            <h3>Laptop</h3>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex my-5 gap-4">
+                                        <span class="fs-1">icon</span>
+                                        <div>
+                                            <h3>Laptop</h3>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- doprdown end -->
+
+                </div>
+                <div class="ms-auto">
+                    <button data-bs-target="#search" data-bs-toggle="collapse" type="button"
+                        class="btn btn-outline-light">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#cart"
+                        class="btn btn-outline-light">
+                        <i class="bi bi-bag-check"></i>
+                    </button>
+                    <button type="button" class="btn btn-light" data-bs-toggle="offcanvas"
+                        data-bs-target="#login">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- login -->
+
+
+    <div class="offcanvas offcanvas-start" id="login">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Enter Email</p>
+            <input type="text" class="form-control" placeholder="Enter Email">
+            <br>
+            <p>Enter Password</p>
+            <input type="text" class="form-control" placeholder="Enter Password">
+            <br>
+            <button type="button" class="btn btn-primary w-100">Login</button>
+
+        </div>
+    </div>
+
+    <!-- login end -->
+
+    <!-- cart start  -->
+
+
+    <div class="offcanvas offcanvas-start" id="cart">
+        <div class="offcanvas-header bg-primary">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img class="img-fluid" src="https://rukminim1.flixcart.com/image/312/312/keaaavk0/computer/c/q/t/lenovo-na-thin-and-light-laptop-original-imafuzt873zgp9xe.jpeg?q=70" alt="">
+                    </div>
+                    <div class="col-sm-3">
+                        <span>Qty-2</span>
+                    </div>
+                    <div class="col-sm-4">
+                        <strong>7811/-</strong>
+                    </div>
+                </div>
+                <h5 class="text-success">You have saved 750/-</h5>
+                 <div class="btn-group w-100">
+
+                     <button type="button" class="btn btn-danger">Remove</button>
+                     <button type="button" class="btn btn-warning">wishlist</button>
+                     
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- cart end  -->
+    <!-- carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide mt-5"  data-bs-interval="2000" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+           <div class="carousel-item active">
+           <div class="row">
+              <div class="col-sm-6 text-end">
+                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/312/312/keaaavk0/computer/c/q/t/lenovo-na-thin-and-light-laptop-original-imafuzt873zgp9xe.jpeg?q=70" alt="" >
+              </div>
+               <div class="col-sm-6">
+                <h3>Dell Xps 13 Pro</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, exercitationem.</p>
+                <button type="button" class="btn btn-primary">shop now</button>
+               </div>
+    </div>
+</div>
+           <div class="carousel-item ">
+           <div class="row">
+              <div class="col-sm-6 text-end">
+                <img class="img-fluid" src="https://rukminim1.flixcart.com/image/312/312/keaaavk0/computer/c/q/t/lenovo-na-thin-and-light-laptop-original-imafuzt873zgp9xe.jpeg?q=70" alt="" >
+              </div>
+               <div class="col-sm-6">
+                <h3>Dell Xps 13 Pro</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, exercitationem.</p>
+                <button type="button" class="btn btn-primary">shop now</button>
+               </div>
+    </div>
+</div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    <!-- carousel end -->
+    <!-- Features start -->
+    <div class="bg-primary py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="d-flex  gap-4">
+                        <span class="fs-1"><i class="bi bi-archive"></i></span>
+                        <div class="text-light">
+                            <h3>Secure Checkout</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div class="text-light">
+                    </div>
+                </div>
+                <div class="col-sm-4"> <div class="d-flex gap-4 align-items-center">
+                    <span class="fs-1"><i class="bi bi-archive"></i></span>
+                    <div class="text-light" >
+                        <h3>Secure Checkout</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div >
+                </div></div>
+                <div class="col-sm-4"> <div class="d-flex gap-4 align-items-center">
+                    <span class="fs-1"><i class="bi bi-archive"></i></span>
+                    <div class="text-light">
+                        <h3>Secure Checkout</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div></div>
+            </div>
+        </div>
+    </div>
+    
+
+  </div>  
+
+
+    
+
+</div>    
+<!-- featured product -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                        <div class="col-sm-3">
+                           
+                         <img class="img-fluid" src="https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3319&hei=2405&qlt=100,1&resMode=sharp2&size=3319,2405&chrss=full&imwidth=5000" alt="">
+                          <br>
+                          <br>
+                         <img class="img-fluid" src="https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3319&hei=2405&qlt=100,1&resMode=sharp2&size=3319,2405&chrss=full&imwidth=5000" alt="">
+                        </div>
+                    </div>
+                </div>
+                      <div class="alert alert-primary">
+                        <div class="d-flex justify-content-between">
+                            <span>Fake Brand</span>
+                        <span>Starting From 78872/-</span>
+           
+                        </div>
+                
+                
+                        <button type="button" class=" mt-3 btn btn-outline-primary w-100">Shop Now</button>
+
+                      </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+
+<!-- featured product end -->
+<br>
+<br>
+
+<!-- most popular satrt -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body border border-success">
+                    
+                      <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-success ">Most Popular</button>
+
+                        <span><i class="bi bi-heart"></i></span>
+                      </div>
+                      <div class="text-center">
+                
+
+                       <img class="img-fluid" src="http://cdn.shopify.com/s/files/1/0046/5158/1511/products/1_1024x.jpg?v=1613464880" alt="">
+                       <br>
+                       <h1>Accesories Routers</h1>
+
+                          <span><i class="bi bi-star"></i></span>
+                          <span><i class="bi bi-star"></i></span>
+                          <span><i class="bi bi-star"></i></span>
+                          <span><i class="bi bi-star"></i></span>
+                          <span><i class="bi bi-star"></i></span>
+                          
+                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- most popular end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
